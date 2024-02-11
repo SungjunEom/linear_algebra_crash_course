@@ -6,6 +6,13 @@
 \usepackage{listings}
 \usepackage{amssymb}
 \usepackage[bottom]{footmisc}
+\usepackage{hyperref} % For clickable referneces and a structure view of pdf.
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear,open={(},close={)}}
 
 \title{Linear Algebra Crash Course}
 \author{Sungjun Eom}
@@ -89,6 +96,7 @@ A\left[\begin{matrix} q_1 & \dots & q_n\end{matrix} \right]
 &= \left[\begin{matrix} Q\bar{A}_1 & \dots & Q\bar{A}_n\end{matrix} \right]
 \end{align*}
 If we choose \(i^{th}\) column then we get the equation \ref{eq:1} \(Aq_i=Q\bar{A}_i\).
+\citep{Chen_2014}
 
 \subsection{Orthonormalization}
 \subsubsection{Orthonormal}
@@ -178,17 +186,47 @@ And its projection matrix is:
 \begin{align*}
 P_\pi=X(X^TX)^{-1}X^T
 \end{align*}
+One thing we should keep in mind is that a projection matrix is an idempotent matrix. Refer to \ref{subsection: idempotent}.
 
 \subsection{Least Square Method}
 Consider a linear model \(y=X\beta +\epsilon\).
 We want to minimize the square sum of errors \(\epsilon^T\epsilon=\epsilon_1^2+\dots+\epsilon_n^2\).
 \begin{align*}
-\min_\beta e^Te &= (y-X\beta)^T(y-X\beta) \\
+e^Te &= (y-X\beta)^T(y-X\beta) \\
 &= <y-X\beta, y-X\beta> \\
-&= <y-X\beta, y-X\beta>\\
+&= <y-X\beta,y-X\beta> \\
+&= <y-\pi_V(y)+\pi_V(y)-X\beta,y-\pi_V(y)+\pi_V(y)-X\beta>\\
+\begin{split}
+&= <y-\pi_V(y),y-\pi_V(y)> + 2<y-\pi_V(y),\pi_V(y)-X\beta>\\
+&\qquad \qquad+<\pi_V(y)-X\beta,\pi_V(y)-X\beta>
+\end{split}
 \end{align*}
+Because \(y-\pi_V(y)\) is in \(V^\perp\) and \(\pi_V(y)-X\beta\) is in \(V\), \(<y-\pi_V(y),\pi_V(y)-X\beta>\) is zero.
+\begin{align*}
+e^Te &=\quad<y-\pi_V(y),y-\pi_V(y)>+<\pi_V(y)-X\beta,\pi_V(y)-X\beta>\\
+&\geq\quad <\pi_V(y)-X\beta,\pi_V(y)-X\beta>
+\end{align*}
+The square sum of errors is minimized when:
+\begin{align*}
+\pi_V(y)&=X\beta=X(X^TX)^{-1}X^Ty\\
+\beta &= (X^TX)^{-1}X^Ty
+\end{align*}
+\begin{figure}[hb]
+\centering
+\includegraphics[scale=0.2]{fig_1.jpg}
+\caption{Visualization of Least Square Method}
+\end{figure}
 
 \subsection{Generalized Inverses}
+\paragraph{Penrose Conditions:} There exists a unique solution \(X\) for any \(A\).
+\begin{align} \label{eq: generalized inverse}
+AXA &= A \\
+XAX &= X \\
+(AX)^* &= AX \\
+(XA)^* &= XA
+\end{align}
+\(X\) is a Moore-Penrose inverse of \(A\) \citep{Penrose_1955}. The matrix \(X\) satisfying the conditions above is unique. The equation \ref{eq: generalized inverse} alone is not unique in general but it is sufficient for most cases. We say the matrix \(X\) satisfying the equation \ref{eq: generalized inverse} is a generalized inverse of \(A\) \citep{Searle_Khuri_2017}.
+
 
 \section{Similarity Transformation}
 
@@ -215,7 +253,7 @@ We want to minimize the square sum of errors \(\epsilon^T\epsilon=\epsilon_1^2+\
 
 \subsection{Cayley-Hamilton Theorem}
 
-\subsection{Exponential}
+\subsection{Exponentials}
 
 \section{Sylvester's Equation}
 
@@ -235,7 +273,7 @@ We want to minimize the square sum of errors \(\epsilon^T\epsilon=\epsilon_1^2+\
 
 \subsection{Symmetric Matrices}
 
-\subsection{Idempotent Matrices}
+\subsection{Idempotent Matrices} \label{subsection: idempotent}
 
 \section{Quadratic Forms and Positive Definiteness}
 
@@ -252,5 +290,9 @@ We want to minimize the square sum of errors \(\epsilon^T\epsilon=\epsilon_1^2+\
 \section{Norms of Matrices}
 
 \section{Matrix Calculus}
+
+\newpage
+
+\bibliography{refs}
 
 \end{document}

@@ -1,0 +1,25 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chen(2014)]{Chen_2014}
+Chi-Tsong Chen.
+\newblock \emph{Linear System Theory and design}.
+\newblock Oxford university press, 2014.
+
+\bibitem[Penrose(1955)]{Penrose_1955}
+R.~Penrose.
+\newblock A generalized inverse for matrices.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 51\penalty0 (3):\penalty0 406–413, 1955.
+\newblock \doi{10.1017/S0305004100030401}.
+
+\bibitem[Searle and Khuri(2017)]{Searle_Khuri_2017}
+Shayle~R. Searle and André~I. Khuri.
+\newblock \emph{Matrix algebra useful for Statistics}.
+\newblock Wiley, 2017.
+
+\end{thebibliography}

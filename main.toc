@@ -1,47 +1,48 @@
-\contentsline {section}{\numberline {1}Vector Spaces and Subspaces}{3}{}%
-\contentsline {section}{\numberline {2}Linear Independence}{3}{}%
-\contentsline {section}{\numberline {3}Basis, Representation and Orthonormalization}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Basis}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Representation}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Vector}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Matrix}{3}{}%
-\contentsline {subsection}{\numberline {3.3}Orthonormalization}{4}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Orthonormal}{4}{}%
-\contentsline {subsubsection}{\numberline {3.3.2}Gram-Schmidt process}{4}{}%
-\contentsline {section}{\numberline {4}Linear Algebraic Equation}{4}{}%
-\contentsline {subsection}{\numberline {4.1}Projection}{4}{}%
-\contentsline {paragraph}{Definition of projection:}{5}{}%
-\contentsline {paragraph}{Definition of projection matrix:}{5}{}%
-\contentsline {subsection}{\numberline {4.2}Least Square Method}{6}{}%
-\contentsline {subsection}{\numberline {4.3}Generalized Inverses}{7}{}%
-\contentsline {section}{\numberline {5}Similarity Transformation}{7}{}%
-\contentsline {section}{\numberline {6}Diagonal Form and Jordan Form}{7}{}%
-\contentsline {subsection}{\numberline {6.1}Eigenvalues and Eigenvectors}{7}{}%
-\contentsline {subsection}{\numberline {6.2}Eigendecomposition}{7}{}%
-\contentsline {subsection}{\numberline {6.3}Multiplicities}{7}{}%
-\contentsline {subsubsection}{\numberline {6.3.1}Algebraic Multiplicities}{7}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Geometric Multiplicities}{7}{}%
-\contentsline {subsection}{\numberline {6.4}Generalized Eigenvectors}{7}{}%
-\contentsline {subsection}{\numberline {6.5}Jordan Form}{7}{}%
-\contentsline {section}{\numberline {7}Functions of a Square Matrix}{7}{}%
-\contentsline {subsection}{\numberline {7.1}Polynomials}{7}{}%
-\contentsline {subsection}{\numberline {7.2}Cayley-Hamilton Theorem}{7}{}%
-\contentsline {subsection}{\numberline {7.3}Exponential}{7}{}%
-\contentsline {section}{\numberline {8}Sylvester's Equation}{7}{}%
-\contentsline {subsection}{\numberline {8.1}Solution with a Vec Operator}{7}{}%
-\contentsline {subsection}{\numberline {8.2}Eigenvalues}{7}{}%
-\contentsline {section}{\numberline {9}Some Useful Formulas}{7}{}%
-\contentsline {subsection}{\numberline {9.1}Ranks}{7}{}%
-\contentsline {subsection}{\numberline {9.2}Diagonal Expansion}{7}{}%
-\contentsline {subsection}{\numberline {9.3}Determinants}{7}{}%
-\contentsline {section}{\numberline {10}Special Matrices}{7}{}%
-\contentsline {subsection}{\numberline {10.1}Symmetric Matrices}{7}{}%
-\contentsline {subsection}{\numberline {10.2}Idempotent Matrices}{7}{}%
-\contentsline {section}{\numberline {11}Quadratic Forms and Positive Definiteness}{7}{}%
-\contentsline {subsection}{\numberline {11.1}Quadratic Forms}{7}{}%
-\contentsline {subsection}{\numberline {11.2}Positive Definiteness}{7}{}%
-\contentsline {section}{\numberline {12}Singular Value Decomposition}{7}{}%
-\contentsline {subsection}{\numberline {12.1}Singular Value}{7}{}%
-\contentsline {subsection}{\numberline {12.2}Singular Value Decomposition}{7}{}%
-\contentsline {section}{\numberline {13}Norms of Matrices}{7}{}%
-\contentsline {section}{\numberline {14}Matrix Calculus}{7}{}%
+\contentsline {section}{\numberline {1}Vector Spaces and Subspaces}{3}{section.1}%
+\contentsline {section}{\numberline {2}Linear Independence}{3}{section.2}%
+\contentsline {section}{\numberline {3}Basis, Representation and Orthonormalization}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Basis}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Representation}{3}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Vector}{3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Matrix}{3}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Orthonormalization}{4}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Orthonormal}{4}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Gram-Schmidt process}{4}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}Linear Algebraic Equation}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Projection}{4}{subsection.4.1}%
+\contentsline {paragraph}{Definition of projection:}{5}{paragraph*.1}%
+\contentsline {paragraph}{Definition of projection matrix:}{5}{paragraph*.2}%
+\contentsline {subsection}{\numberline {4.2}Least Square Method}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Generalized Inverses}{6}{subsection.4.3}%
+\contentsline {paragraph}{Penrose Conditions:}{6}{paragraph*.3}%
+\contentsline {section}{\numberline {5}Similarity Transformation}{9}{section.5}%
+\contentsline {section}{\numberline {6}Diagonal Form and Jordan Form}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Eigenvalues and Eigenvectors}{9}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Eigendecomposition}{9}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Multiplicities}{9}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Algebraic Multiplicities}{9}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Geometric Multiplicities}{9}{subsubsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.4}Generalized Eigenvectors}{9}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Jordan Form}{9}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Functions of a Square Matrix}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Polynomials}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Cayley-Hamilton Theorem}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Exponentials}{9}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Sylvester's Equation}{9}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Solution with a Vec Operator}{9}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Eigenvalues}{9}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Some Useful Formulas}{9}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Ranks}{9}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Diagonal Expansion}{9}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Determinants}{9}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Special Matrices}{9}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Symmetric Matrices}{9}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Idempotent Matrices}{9}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Quadratic Forms and Positive Definiteness}{9}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Quadratic Forms}{9}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Positive Definiteness}{9}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Singular Value Decomposition}{9}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Singular Value}{9}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Singular Value Decomposition}{9}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Norms of Matrices}{9}{section.13}%
+\contentsline {section}{\numberline {14}Matrix Calculus}{9}{section.14}%
